@@ -151,9 +151,9 @@ td, th {
     transition: 0.3s;
 }
 .nav1:hover{background-color: #c8c8c8;color: #e00212;}
-.block1{height:75px;}.block2{height:50px;background-color: #f2f2f2;}.block3{height:100px;}
-.block4{height:60px;}
-.block5{height:300px;}
+.block1{height:75px;width:940px;}.block2{height:50px;background-color: #f2f2f2;width:940px;}.block3{height:100px;width:940px;}
+.block4{height:60px;width:940px;}
+.block5{height:300px;width:940px;}
 .block6{height:350px;width: 940px;}
 .block7{height: 350px;width: 940px;margin: 0,auto;}
 .block8{height: 350px;width: 940px;}
