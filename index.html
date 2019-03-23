@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/lunbotu.css" />
+    <script type="text/javascript" src="javascript/lunbotu.js"></script>
+    
+    <style>
+        .container {
+            width: 940px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        body{
+            /*background-image: linear-gradient(to top, #fa709a 0%, #fee140 100%);*/
+        }
+        a{text-decoration: none;}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block1"></div>
+        <div class="block2" >
+            <div id="jnkc" style="height:50px;line-height:50px;" >//显示当前系统时间
+                    <script>
+                            document.write("")
+                            setInterval("jnkc.innerHTML= '现在是：'+new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+                    </script>
+            </div>
+            
+                        
+        </div>
+        <div class="block3">
+            <div id="logo">
+                <div id="logo1"><img src="images/logo.jpg"></div> 
+                <span id="name1"style="text-align:center;line-height:25px; ">先锋网<br style="line-height:5px;" /><i style="color:red;font-size: 14px;">www.tw.neuq.cn</i></span>
+            </div>
+        </div>
+        <div class="block4">
+            <div class="nav1"><br />首页</div>
+            <div class="nav1"><br />青马基地</div>
+            <div class="nav1"><br />思想引领</div>
+            <div class="nav1"><br />实践育人</div>
+            <div class="nav1"><br />校园文化</div>
+            <div class="nav1"><br />学生团体</div>
+            <div class="nav1"><br />志愿服务</div>
+            <div class="nav1"><br />学团动态</div>
+            <div class="nav1"></div>
+            <div class="nav1"></div>
+        </div>
+        <div class="block5">
+            <div id="lunbotu">
+                <div id="list" style="left: -940px;">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                    <img src="images/005.jpg">
+                </div>
+                <div id="buttons">
+                    <span index="1" class="on"></span>
+                    <span index="2"></span>
+                    <span index="3"></span>
+                    <span index="4"></span>
+                    <span index="5"></span>
+                    <span index="6"></span>
+                    <span index="7"></span>
+                </div>
+                <a href="javascript:;" class="arrow" id="prev"><br /><br /><br /><div id="l1">&lt;</div></a>
+                <a href="javascript:;" class="arrow" id="next"><br /><br /><br /><div id="l1">&gt;</div></a>
+            </div>
+        </div>
+        <div class="block6">
+            <div class="block6_1">
+                <div id="block6_1_1"style="width:470px;">
+                    <div id="block6_1_1_1" style="float:left;height:20px;padding:3px;color:#f2f2f2;background-image:linear-gradient(to right, #ff0000 0%, #ffa600 100%);">学团工作动态</div>
+                    <div id="block6_1_1_2" style="float:right;height:20px;color:red;">更多》》</div>
+                </div>
+                <div id="block6_1_2"style="overflow:scroll;width:470px;">
+                    <ul>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block6_1">
+                <div id="block6_1_1" style="width:470px;">
+                    <div id="block6_1_1_1" style="float:left;height:20px;padding:3px;color:#f2f2f2;background-image:linear-gradient(to right, #ff0000 0%, #ffa600 100%);">最新通知</div>
+                    <div id="block6_1_1_2" style="float:right;height:20px;padding:3px;color:red;">更多》》</div>
+                </div>
+                <div id="block6_1_2"style="overflow:scroll;width:470px;">
+                    <ul>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                        <li>新闻一</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block7">
+            <div id="block6_1_1" style="width:940px;height: 26px;">
+                        <div id="block6_1_1_1" style="float:left;height:20px;padding:3px;color:white;background-image:linear-gradient(to right, #ff0000 0%, #ffa600 100%);">图文速递</div>
+                        <div id="block6_1_1_2" style="float:right;height:20px;padding:3px;color:red;">更多》》</div>
+            </div>
+            <div id="tichtextcontainer"style="width:940px;">
+            <div class="richtext">
+                <div id="richtext1" class="richtext2">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily c</p>
+                </div>
+                <div id="richtext3" class="richtext4">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.</p>
+                    <h4>Static and dynamic content editing</h4>
+                    <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then conne</p>
+                </div>
+            </div>
+            <div class="richtext">
+                <div id="richtext1" class="richtext2">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily c</p>
+                </div>
+                <div id="richtext3" class="richtext4">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.</p>
+                    <h4>Static and dynamic content editing</h4>
+                    <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then conne</p>
+                </div>
+            </div>
+            <div class="richtext">
+                <div id="richtext1" class="richtext2">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily c</p>
+                </div>
+                <div id="richtext3" class="richtext4">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.</p>
+                    <h4>Static and dynamic content editing</h4>
+                    <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then conne</p>
+                </div>
+            </div>
+            <div class="richtext">
+                <div id="richtext1" class="richtext2">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily c</p>
+                </div>
+                <div id="richtext3" class="richtext4">
+                    <h2>What’s a Rich Text element?</h2>
+                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.</p>
+                    <h4>Static and dynamic content editing</h4>
+                    <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then conne</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="block8">
+            <div class="block6_1" style="overflow: hidden;">
+                <div style="width:470px;height:40px;">
+                    <div class="tab1" id="tab1"><a>媒体平台</a></div>
+                    <div class="tab1" id="tab2"><a>社团风采</a></div>
+                    <div class="tab1"id="tab3">团讯</div>
+                </div>
+                <div style="width:470px;height:300px;float:left;"id="content1">1媒体平台</div>
+                <div style="width:470px;height:312px;float:left;" id="content2">2社团风采</div>
+                <div style="width:470px;height:312px;float:left;" id="content3">3团讯</div>
+            </div>
+            <div class="block6_1" style="overflow: hidden;">
+                <div style="width:470px;height:38px;">
+                    <div class="tab1"id="tab4">基层链接</div>
+                    <div class="tab1"id="tab5">青年心声</div>
+                    <div class="tab1"id="tab6">相关链接</div>
+                    <div class="tab1"id="tab7">文件下载</div>
+                </div>
+                <div style="width:470px;height:300px;float:left;" id="content4">4基层链接</div>
+                <div style="width:470px;height:312px;float:left;"id="content5">5青年心声</div>
+                <div style="width:470px;height:312px;float:left;"id="content6">6相关链接</div>
+                <div style="width:470px;height:312px;float:left;"id="content7">7文件下载</div>
+            </div>
+        </div>
+        <div class="block9">
+            <div class="block9_1">
+                <p class="paragraph">Copyright@2019 All rights reserved by 共青团东北大学秦皇岛分校委员会<br/>技术支持：共青团东北大学秦皇岛分校委员会校团委宣传部网络中心</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
