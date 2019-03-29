@@ -1,0 +1,12 @@
+#lunbotu{overflow: hidden; width: 250px;height: 79px;border: 0px solid #cb1b45;position: relative;text-decoration: none;}
+#list{width: 2000px; height: 79px; position: absolute;z-index: 1;transition: 0.7s;}
+#list img{float: left;}
+#buttons{position: absolute; height: 5px; width: 150px; z-index: 2; bottom: 15px; left: 70px;}
+#buttons span{cursor:pointer; float: left;border: 1px solid #fff; width: 7px; height: 7px; border-radius: 50%; background: #6c6024; margin-right: 5px;}
+#buttons .on{background-color: orangered;}
+.arrow{cursor: pointer; display: none; line-height:11px; text-align: center; font-size: 19px; font-weight: bold; width: 27px; height: 250px;  position: absolute; z-index: 2; top: px; background-color: RGBA(0,0,0,.3); color: red;}
+/*.arrow :hover{background-color: rgb(0,0,0,.8);}*/
+#lunbotu:hover .arrow{display: block;}
+#prev{left: 0px;}
+#next{right: 0px;} 
+#l1{text-align: center;}

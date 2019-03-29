@@ -209,5 +209,6 @@ a:active, a:hover {
 .richtext{float:left;overflow-x:hidden;}
 .block10{width: 940px;height:500px;}
 .block10_1{width: 250px;height: 500px;float: left;}
-.block10_2{width: 690px;float: left;height: 500px;}
+.block10_2{width: 680px;float: left;height: 490px;padding:1px;margin: 1px; border-left: 1px solid red;}
 .block10_1_1{width: 250px;height: 250px;}
+.block10_1_2{width: 250px;height: 79px;}
