@@ -204,7 +204,7 @@ a:active, a:hover {
 #content5{display: none;}
 #content6{display: none;}
 #content7{display: none;}
-#logo1{padding-top: 5px;padding-bottom: 5px;padding-left: 20px;padding-right: 20px;float: left;}
+#logo1{padding-top: 4px;padding-bottom: 4px;padding-left: 20px;padding-right: 20px;float: left;}
 #name1{font-size: 30px;color: #e00212;text-align: start;position: relative;top: 23px; float: left;}
 .richtext{float:left;overflow-x:hidden;}
 .block10{width: 940px;height:500px;}
